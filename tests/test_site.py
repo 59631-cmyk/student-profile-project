@@ -26,6 +26,3 @@ def test_homepage_has_html_structure():
     assert "</html>" in html
     assert "<body>" in html
     assert "</body>" in html
-
-def test_deliberate_failure():
-    assert False, "Demonstration of CI failure"
